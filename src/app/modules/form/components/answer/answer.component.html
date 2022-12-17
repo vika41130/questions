@@ -1,0 +1,9 @@
+<div class="answer">
+    <div *ngFor="let answer of answerList;" class="answer-item">
+        <p>{{answer.question}}</p>
+        <p>{{answer.paragraphAnswer}}</p>
+    </div>
+</div>
+<button>
+    <a routerLink="form/builder">Back to Forms Builders</a>
+</button>
